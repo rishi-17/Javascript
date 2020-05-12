@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to sort array in ascending order.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+var names = ["apple", "mango", "monkey", "nano","owl"];
+document.getElementById("demo").innerHTML = names;
+
+function myFunction() {
+  names.sort();
+  names.reverse();
+  document.getElementById("demo").innerHTML = names;
+}
+</script>
+
+</body>
+</html>
